@@ -27,7 +27,9 @@
 #include <linux/version.h>
 
 #include "monitor_ioctl.h"
+#include <linux/timer.h>
 
+#include <linux/jiffies.h>
 #define DEVICE_NAME "container_monitor"
 #define CHECK_INTERVAL_SEC 1
 
